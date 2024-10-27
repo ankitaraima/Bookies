@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+form #btn {
+    background-color:rgba(241.19,86.83,0,1) ;
+    border: none;
+    
+    width: 34vw;
+    margin: 3vw 0 0 32vw ;
+    
+}
+
+form #btn:hover{
+    background-color:rgba(204, 76, 2, 0.973) ;
+    border: none;
+    
+    width: 34vw;
+    margin: 3vw 0 0 32vw  ;
+    
+}
+
+form{
+    margin-left : 2vw;
+    margin-right : 2vw;
+}
+nav{
+    margin-left : 2vw;
+    margin-right : 2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    background:rgb(241, 88, 0) ;
+}
+#nav{
+    padding-left: 2vw; 
+    color:rgb(241, 88, 0) ; 
+}
+
+

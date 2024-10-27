@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+	/* position: absolute; */
+}
+#hbg{
+    top: 0px;
+	left: 0px;
+	width: 100%;
+	display: flex;
+	height: 312.5px;
+	background:rgba(241.19,86.83,0,1);
+}
+#head{
+	display: flex;
+	color:white;
+
+
+}
+#adminSignUp {
+	position: relative;
+	align-items: center;
+	align-content: center;
+	display: flex;
+	margin-top: 10vh;
+	top: 16vh;
+	 left: 123px; 
+	margin-left: 50px;
+	width: 30vw;
+	height: 30vw;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+	-ms-box-shadow:13px 11px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:13px 11px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:13px 11px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:13px 11px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:13px 11px 4px 1px rgba(0,0,0,0.25);
+	-ms-box-shadow:inset 18px 26px 27px 1px rgba(255,255,255,1);
+	-o-box-shadow:inset 18px 26px 27px 1px rgba(255,255,255,1);
+	-webkit-box-shadow:inset 18px 26px 27px 1px rgba(255,255,255,1);
+	-moz-box-shadow:inset 18px 26px 27px 1px rgba(255,255,255,1);
+	box-shadow:inset 18px 26px 27px 1px rgba(255,255,255,1);
+	background:rgba(255,255,255,0);
+	background: -webkit-linear-gradient(-180deg , rgba(217,217,217,1) 0%, rgba(241.19,86.83,0,0.26) 100%);
+	background: -o-linear-gradient(-180deg , rgba(217,217,217,1) 0%, rgba(241.19,86.83,0,0.26) 100%);
+	background: -moz-linear-gradient(-180deg , rgba(217,217,217,1) 0%, rgba(241.19,86.83,0,0.26) 100%);
+	background: -ms-linear-gradient(-180deg , rgba(217,217,217,1) 0%, rgba(241.19,86.83,0,0.26) 100%);
+	background: linear-gradient(-180deg , rgba(217,217,217,1) 0%, rgba(241.19,86.83,0,0.26) 100%);
+}
+
+#admin b{
+	position: absolute;
+	top: 5vh;
+	left: 10vw;
+	width: 137px;
+	height: 74px;
+	overflow: hidden;
+	font-family: Alice;
+	font-size: 40px;
+	text-align: center;
+	color:#F15600;}
+
+
+#adminButton{
+	position: absolute;
+	border: none;
+	top: 100px;
+	left: 4vw;
+	width: 22vw;
+	height: 23vh;
+	-ms-border-radius: 40px;
+	-o-border-radius: 40px;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+	background:rgba(241.19,86.83,0,1);
+	cursor: pointer;
+	
+	color:#FFFFFF;
+	font-family: Alice;
+	font-size: 28px;
+}
+
+#adminButton:hover{
+	position: absolute;
+	top: 100px;
+	left: 4vw;
+	width: 22vw;
+	height: 23vh;
+	-ms-border-radius: 40px;
+	-o-border-radius: 40px;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+	background:rgb(189, 70, 1);
+	cursor: pointer;
+}
+#adminSignUpButton{
+	position: absolute;
+	top: 4vw;
+	left: 7vw;
+	width: 105px;
+	height: 52px;
+	overflow: hidden;
+	font-family: Alice;
+	font-size: 28px;
+	text-align: center;
+	color:#FFFFFF;}
+
+
+/* Usersignup */
+
+#UserSignUp{
+	float:right;
+	position:relative;
+	align-items: center;
+	align-content: center;
+	display: flex;
+	top: 16vh;
+	left: 1228px;
+
+	/* width: 30vw; */
+	/* height: 30vw; */
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+	-ms-box-shadow:13px 11px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:13px 11px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:13px 11px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:13px 11px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:13px 11px 4px 1px rgba(0,0,0,0.25);
+	-ms-box-shadow:inset 18px 26px 27px 1px rgba(255,255,255,1);
+	-o-box-shadow:inset 18px 26px 27px 1px rgba(255,255,255,1);
+	-webkit-box-shadow:inset 18px 26px 27px 1px rgba(255,255,255,1);
+	-moz-box-shadow:inset 18px 26px 27px 1px rgba(255,255,255,1);
+	box-shadow:inset 18px 26px 27px 1px rgba(255,255,255,1);
+	background:rgba(255,255,255,0);
+	background: -webkit-linear-gradient(-180deg , rgba(217,217,217,1) 0%, rgba(241.19,86.83,0,0.26) 100%);
+	background: -o-linear-gradient(-180deg , rgba(217,217,217,1) 0%, rgba(241.19,86.83,0,0.26) 100%);
+	background: -moz-linear-gradient(-180deg , rgba(217,217,217,1) 0%, rgba(241.19,86.83,0,0.26) 100%);
+	background: -ms-linear-gradient(-180deg , rgba(217,217,217,1) 0%, rgba(241.19,86.83,0,0.26) 100%);
+	background: linear-gradient(-180deg , rgba(217,217,217,1) 0%, rgba(241.19,86.83,0,0.26) 100%);
+
+}
+
+#User b{
+	position: absolute;
+	top: 5vh;
+	left: 10vw;
+	width: 137px;
+	height: 74px;
+	overflow: hidden;
+	font-family: Alice;
+	font-size: 40px;
+	text-align: center;
+	color:#F15600;
+
+}
+
+#UserButton{
+	position: absolute;
+	border: none;
+	top: 92px;
+	left: 4vw;
+	width: 22vw;
+	height: 23vh;
+	-ms-border-radius: 40px;
+	-o-border-radius: 40px;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+	background:rgba(241.19,86.83,0,1);
+	cursor: pointer;
+	color:#FFFFFF;
+	font-family: Alice;
+	font-size: 28px;
+}
+
+#UserButton:hover{
+	
+	background:rgb(189, 70, 1);
+	cursor: pointer;
+}
+
+#UserButton2{
+	position: absolute;
+	border: none;
+	top: 240px;
+	left: 4vw;
+	width: 22vw;
+	height: 23vh;
+	-ms-border-radius: 40px;
+	-o-border-radius: 40px;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+	background:rgba(241.19,86.83,0,1);
+	cursor: pointer;
+	cursor: pointer;
+	color:#FFFFFF;
+	font-family: Alice;
+	font-size: 28px;
+}
+#UserButton2:hover{
+	
+	background:rgb(175, 66, 2);
+	cursor: pointer;
+}
